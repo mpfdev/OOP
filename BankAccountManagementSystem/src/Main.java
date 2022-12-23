@@ -29,7 +29,9 @@ public class Main {
 
                 BankAccount account = new BankAccount(accountHolder, accountNumber, balance);
                 bank.addAccount(account);
-            } //TODOs
+            } else {
+                break;
+            }
         }
     }
 }
